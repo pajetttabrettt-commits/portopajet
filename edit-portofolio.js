@@ -192,7 +192,17 @@ window.MY_PORTFOLIO = {
   // 12. FOOTER (BAGIAN PALING BAWAH)
   // --------------------------------------------------------------------------
   footerTagline:
-    "Membangun pengalaman web modern dengan presisi kode, tipografi tajam, dan dimensi 3D interaktif."
+    "Membangun pengalaman web modern dengan presisi kode, tipografi tajam, dan dimensi 3D interaktif.",
+
+  // --------------------------------------------------------------------------
+  // 13. KONEKSI SUPABASE (FORM KONTAK & KOMENTAR)
+  // --------------------------------------------------------------------------
+  supabase: {
+    // URL Project Supabase Anda
+    url: "https://dvmidvfssfxjzihztcsi.supabase.co",
+    // Publishable API Key Supabase Anda
+    publishableKey: "sb_publishable_oS_8DctxII2FjwFa0oAphQ_3pf_vtiF"
+  }
 };
 
 // Sinkronkan judul tab browser secara otomatis
