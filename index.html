@@ -1,1 +1,50 @@
-<!doctype html>\n<html lang="id">\n  <head>\n    <meta charset="UTF-8" />\n    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />\n    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png" />\n    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png" />\n    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />\n    <meta name="viewport" content="width=device-width, initial-scale=1.0" />\n    <meta name="theme-color" content="#050510" />\n    <style>html,body,#root{background-color:#050510;min-height:100%;margin:0}</style>\n    <link rel="preconnect" href="https://fonts.googleapis.com" />\n    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />\n    <link\n      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@500;600;700;800&display=swap"\n      rel="stylesheet"\n    />\n    <meta\n      name="description"\n      content="Portofolio Fajar Maulana - Creative Fullstack Developer & 3D WebGL Specialist."\n    />\n    <title>Fajar Maulana | Portofolio</title>\n\n    <!-- Base path handler to support deep routing (/project/...) -->\n    <script>\n      (function() {\n        var base = document.createElement('base');\n        if (window.location.protocol === 'file:') {\n          base.href = window.location.href.split('#')[0].split('?')[0].replace(/\/project\/.*$/, '/').replace(/\/[^\/]*$/, '/');\n        } else {\n          var p = window.location.pathname.replace(/\/project(\/.*)?$/, '');\n          p = p.replace(/\/[^\/]*\.[a-zA-Z0-9]+$/, '/');\n          if (!p.endsWith('/')) p += '/';\n          base.href = window.location.origin + p;\n        }\n        document.head.appendChild(base);\n      })();\n    </script>\n\n    <!-- File Konfigurasi Data (Edit Manual di Sini) -->\n    <script src="./edit-portofolio.js"></script>\n\n    <!-- Core React Bundle -->\n    <script type="module" crossorigin src="./assets/index-CRd3u6O9.js"></script>\n    <link rel="stylesheet" crossorigin href="./assets/index-D5V7fyb2.css">\n  </head>\n  <body>\n    <div id="root"></div>\n  </body>\n</html>\n
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#050510" />
+    <style>html,body,#root{background-color:#050510;min-height:100%;margin:0}</style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <meta
+      name="description"
+      content="Portofolio Fajar Maulana - Creative Fullstack Developer & 3D WebGL Specialist."
+    />
+    <title>Fajar Maulana | Portofolio</title>
+
+    <!-- Base path handler to support deep routing (/project/...) -->
+    <script>
+      (function() {
+        var base = document.createElement('base');
+        if (window.location.protocol === 'file:') {
+          base.href = window.location.href.split('#')[0].split('?')[0].replace(/\/project\/.*$/, '/').replace(/\/[^\/]*$/, '/');
+        } else {
+          var p = window.location.pathname.replace(/\/project(\/.*)?$/, '');
+          p = p.replace(/\/[^\/]*\.[a-zA-Z0-9]+$/, '/');
+          if (!p.endsWith('/')) p += '/';
+          base.href = window.location.origin + p;
+        }
+        document.head.appendChild(base);
+      })();
+    </script>
+
+    <!-- File Konfigurasi Data (Edit Manual di Sini) -->
+    <script src="./edit-portofolio.js"></script>
+
+    <!-- Core React Bundle -->
+    <script type="module" crossorigin src="./assets/index-CRd3u6O9.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-D5V7fyb2.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
