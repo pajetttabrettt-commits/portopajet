@@ -115,8 +115,50 @@ window.MY_PORTFOLIO = {
   // --------------------------------------------------------------------------
   stats: [
     { label: "Projects", detail: "Karya yang dibuat", value: "3" },
-    { label: "Certificates", detail: "Skill yang divalidasi", value: "3" },
-    { label: "Awards", detail: "Pencapaian diraih", value: "1" }
+    { label: "Certificates", detail: "Skill yang divalidasi", value: "2" },
+    { label: "Awards", detail: "Pencapaian diraih", value: "3" }
+  ],
+
+  // --------------------------------------------------------------------------
+  // DAFTAR SERTIFIKAT (CERTIFICATES)
+  // --------------------------------------------------------------------------
+  certificates: [
+    {
+      id: "desain-grafis-abasca",
+      title: "Pelatihan Desain Grafis - LKP Abasca",
+      image: "./assets/sertifikat-desain-grafis-abasca.jpg",
+      mobileImage: "./assets/sertifikat-desain-grafis-abasca.webp"
+    },
+    {
+      id: "apresiasi-lemahtamba",
+      title: "Certificate of Appreciation - Liga Lemahtamba Piala Mada Jabar",
+      image: "./assets/piagam-lemahtamba-mada-jabar.jpg",
+      mobileImage: "./assets/piagam-lemahtamba-mada-jabar.webp"
+    }
+  ],
+
+  // --------------------------------------------------------------------------
+  // DAFTAR PENGHARGAAN & PRESTASI (AWARDS / ACHIEVEMENTS)
+  // --------------------------------------------------------------------------
+  awards: [
+    {
+      id: "juara1-lodaya-2019",
+      title: "Juara I Friendly Game Lodaya Bersahabat U16 Brebes",
+      image: "./assets/piagam-juara1-lodaya-brebes-2019.jpg",
+      mobileImage: "./assets/piagam-juara1-lodaya-brebes-2019.webp"
+    },
+    {
+      id: "juara1-bintang-putra-2017",
+      title: "Juara I Friendly Game U-14 Bintang Putra Cup Brebes",
+      image: "./assets/piagam-juara1-bintang-putra-2017.jpg",
+      mobileImage: "./assets/piagam-juara1-bintang-putra-2017.webp"
+    },
+    {
+      id: "apresiasi-lemahtamba-award",
+      title: "Penghargaan & Apresiasi Liga Lemahtamba Piala Mada Jabar",
+      image: "./assets/piagam-lemahtamba-mada-jabar.jpg",
+      mobileImage: "./assets/piagam-lemahtamba-mada-jabar.webp"
+    }
   ],
 
   // --------------------------------------------------------------------------
